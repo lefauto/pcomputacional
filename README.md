@@ -1,2 +1,2 @@
 # pcomputacional
-*scm*: colabor**ação**
+anotações das aulas
