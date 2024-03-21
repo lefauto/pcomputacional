@@ -1,6 +1,6 @@
 # pcomputacional
 
-# anotações das aulas
+## anotações das aulas
 
 - **Primeiro semestre**
   - *Eduardo*
