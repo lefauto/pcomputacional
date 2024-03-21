@@ -28,6 +28,10 @@ Qualquer tipo de informacão sensível (senhas, cpf...)
 GitHub (Foco em comunidade)
 GitLab (Foco Empresarial) (Pode ser *self-hosted*)
 
+# Materiais para o estudo da linguagem
+https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md
+
 # TAREFA
 Construir um portfólio
 
