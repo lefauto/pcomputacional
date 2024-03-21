@@ -1,2 +1,2 @@
 # pcomputacional
-*scm*: colaboração
+*scm*: colabor**ação**

@@ -26,7 +26,7 @@ Qualquer tipo de informacão sensível (senhas, cpf...)
 
 # Alternativa ao GitHub = GitLab
 GitHub (Foco em comunidade)
-GitLab (Foco Empresarial) (Pode ser self-hosted)
+GitLab (Foco Empresarial) (Pode ser *self-hosted*)
 
 # TAREFA
 Construir um portfólio
