@@ -68,3 +68,6 @@ Destaca esta característica | Utiliza bastante a identação
 
 # NOTAS GERAIS
 - É interessante investir no estudo da linguagem "Rust".
+- command + space, 'terminal' = abre o terminal
+  - ls = lista os programas
+  - nano () = abre o editor
