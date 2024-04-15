@@ -1,4 +1,3 @@
-
 felipe = 19
 livia = 21
 guilherme = 19
