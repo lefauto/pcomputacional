@@ -2,6 +2,8 @@
 - Comandos iniciam com >>>
 - Resultados não saem com ">>>"
 - input() = ler()
+  - OBS: "input" sem um tipo sempre vai ler uma "string", para especificar faça o seguinte:
+    - int(input('xxx:'))
 - print() = escrever()
 - a = b (Atribuição)
 - a == b (Operador)
@@ -15,7 +17,7 @@
 
 ## Palavras Reservadas
 - Palavras que possuem significado próprio dentro do Python.
-![](<Captura de Tela 2024-04-16 às 08.46.08.png>)
+![](Palavras_reservadas.png)
 
 ## Tipos de dados
 - Use o método "type" para confirmar o tipo de uma variável.
@@ -88,20 +90,46 @@
       ```
       >>> 'Usando "aspas duplas"'
       'Usando "aspas duplas"'
-      >>> a
+      >>> "Usando 'aspas duplas'"
+      "Usando "aspas duplas'"
+      >>> "Usando \"aspas duplas\""
+      'Usando "aspas duplas"'
+      ```
 
 - List:
   - list: Coleção **mutável** e **ordenada** de itens
   - Exemplo:
-    - a = [1, 2, 3]
+    ```
+    >>> a = [1, 2, 3]
+    >>> type(a)
+    <class 'list'>
+    >>> b = ['a', 'b']
+    >>> d = a + b
+    >>> d
+    [1, 2, 3, 'a', 'b']
+    >>> d[4] = 'python'
+    >>> d
+    [1, 2, 3, 'a', 'python', 'b']
+    ```
 
 - Tupla:
   - tuple: Coleção **imutável** e **ordenada** de itens
-  - Exemplo: a = [1, 2, 3] \
-  b = [á', 'b']
+  - Exemplo: 
+    ```
+    >>> a = [1, 2, 3]
+    >>> type(a)
+    <class 'list'>
+    >>> b = ['a', 'b']
+    >>> d = a + b
+    >>> d
+    [1, 2, 3, 'a', 'b']
+    >>> d[4] = 'python'
+    ERRO
+    ```
 
-- Dicionário (Teremos)
+- Dicionário
   - dict: Conjunto **mutável** de pares chave-valor
+  - Muito complicado, aprenderemos mais adiante
 
 - Conjuntos
   - set: Grupo mutável e não-ordenado de itens únicos
