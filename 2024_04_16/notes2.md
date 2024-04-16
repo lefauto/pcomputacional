@@ -15,7 +15,7 @@
 
 ## Palavras Reservadas
 - Palavras que possuem significado próprio dentro do Python.
-![As palavras em questão:](<Captura de Tela 2024-04-16 às 08.46.08.png>)
+![](<Captura de Tela 2024-04-16 às 08.46.08.png>)
 
 ## Tipos de dados
 - Use o método "type" para confirmar o tipo de uma variável.
