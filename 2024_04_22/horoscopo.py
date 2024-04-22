@@ -1,7 +1,7 @@
 x = 'sim'
 while x != 'nao':
     mes = int(input('Insira o número do seu mês:'))
-    if mes >= 1 or mes <= 12:
+    if 1 <= mes <= 12:
         match mes:
             case 1:
                     print("Seu signo é Python.")
