@@ -1,9 +1,11 @@
 idade = int(input("Qual a sua idade?"))
 if idade < 0 or idade > 150:
     print("Reprovado")
+    exit()
 estuda = input("Você estuda? s/n")
 if idade < 14 and estuda == 'n':
     print("Aprovado com ressalvas")
+    exit()
 trabalho = input("Você trabalha? s/n")
 if trabalho == 's':
     if idade < 14:
@@ -12,7 +14,7 @@ if trabalho == 's':
         print("Aprovado com ressalvas")
     else:
         regime = input("Qual o seu regime? mei/estag/outro")
-        renda =  float(input("Qual a sua renda mensal?"))
+        renda = float(input("Qual a sua renda mensal?"))
         if renda < 0:
             print("Reprovado")
         else:
@@ -39,8 +41,3 @@ else:
                 print("Aprovado com ressalvas")
         case 'n':
             print("Aprovado")
-
-
-
-
-

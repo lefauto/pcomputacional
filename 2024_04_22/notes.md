@@ -1,4 +1,4 @@
-# Python operadores e condições
+# Python: Operadores e condições
 - Comentários em código: "# ..."
 
 ## Operadores
