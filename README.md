@@ -5,3 +5,4 @@
 - [Notas 2024/04/15, Introdução à Python](2024_04_15)
 - [Notas 2024/04/16, Python: Variáveis e Operadores](2024_04_16)
 - [Notas 2024/04/22, Python: Operadores lógicos e condições](2024_04_22)
+- [Notas 2024/04/23, Python: Listas, tuplas e laços de repetição](2024_04_23)

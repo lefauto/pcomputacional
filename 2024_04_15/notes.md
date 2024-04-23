@@ -65,7 +65,6 @@ Destaca esta característica | Utiliza bastante a identação
 - Recupera a memória não sendo utilizada
 - Simplifica o uso da memória para desenvolvedores, mas perde performance
 
-
 # NOTAS GERAIS
 - É interessante investir no estudo da linguagem "Rust".
 - command + space, 'terminal' = abre o terminal
