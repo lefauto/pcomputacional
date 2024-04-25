@@ -4,6 +4,8 @@
   - **dir(variável)**: Lista metódos disponíveis nesta variável
 
 ## Listas
+- Sintaxe:
+  - lista = [valor, valor]
 - São coleções **mutáveis** e **ordenadas** de itens **heterogêneos**.
   - **Mutável**: adicione, remova ou substitua itens da lista
     - lista.append(valor)
@@ -37,6 +39,32 @@
     - list[1:4] = [valor, valor, valor]
       - Substitui do segundo ao quarto elemento na lista
   - Itens **heterogêneos**: armazena números, strings, listas, tuplas…
-    - Exemplo:
+    - Exemplo: \
     ![](lista_misturada.png)
+
+## Tuplas
+- Sintaxe:
+  - tupla = (valor, valor)
+- São coleções **imutáveis** e **ordenadas** de itens **heterogêneos**.
+  - **Imutável**: tupla não pode ser alterada após sua criação.
+- Pode-se usar todos comandos já citados os quais não encvolvem a mudança de um valor dentro da lista.
+
+## Laços de repetição
+### for
+- Itera por uma lista de itens, executando o mesmo trecho de código para cada elemento. \
+  ![](for.png)
+### while
+- Executa um trecho enquanto a condição for verdadeira.
+- Sintaxe:
+  - while *condição*: \
+    *bloco de comando*
+### list comprehension
+- *syntatuc sugar*
+- similar ao ‘if ternário’, possibilitando operações com listas em uma única linha. \
+  ![](list_comprehension.png)
+
+# Notas Gerais
+- -= (atribui a tal valor um a menos dele mesmo)
+- += (atribui a tal valor um a mais dele mesmo)
+
 
