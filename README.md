@@ -7,3 +7,4 @@
 - [Notas 2024/04/22, Python: Operadores lógicos e condições](2024_04_22)
 - [Notas 2024/04/23, Python: Listas, tuplas e laços de repetição](2024_04_23)
 - [Notas 2024/04/25, Python : Listas (continuação)](2024_04_25)
+- [Notas 2024/04/29, Python: Strings e random](2024_04_29)
