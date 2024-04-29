@@ -21,7 +21,7 @@ for altura in range(tamanho):
     elif (altura + 1) % 2 == 1:
         print('.' * espacos + "#" * (altura + 1))
         espacos -= 1
- 
+
 # Desenha a metade inferior do triângulo
 espacos = 0
 for altura in range(tamanho - 2):
