@@ -29,11 +29,18 @@ for w in range(len(listabase)):
 
                         # Processo de filtração de caracteres repetidos
                         if char1 != char2 or char1 != char3:
-                            passtry = char1 + char2 + char3
+                            senha = char1 + char2 + char3
 
                             # Escrevendo as possíveis senhas
-                            print(passtry)
                             contador += 1
+                            extraido = extrair_arquivo_zip_com_senha(senha)
+                            if extraido:
+                                print(senha)
+                                print('Arquivo extraido')
+                                print("Número de tentativas:", contador)
+                                exit()
+                            else:
+                                print(senha)
 
                         # Alterando o valor do 4º caractere
                         for z in range(len(listabase)):
@@ -47,8 +54,13 @@ for w in range(len(listabase)):
                                    (char2 != char3 or char2 != char4)):
 
                                     # Escrevendo as possíveis senhas
-                                    passtry = char1 + char2 + char3 + char4
-                                    print(passtry)
+                                    senha = char1 + char2 + char3 + char4
                                     contador += 1
-
-print("Número de tentativas:", contador)
+                                    extraido = extrair_arquivo_zip_com_senha(senha)
+                                    if extraido:
+                                        print(senha)
+                                        print('Arquivo extraido')
+                                        print("Número de tentativas:", contador)
+                                        exit()
+                                    else:
+                                        print(senha)
