@@ -34,8 +34,8 @@ helloworld(age=18, name="Pedro")
 >>> Hello World! I'm Pedro and I'm 18 years old
 ````
 
-### Parâmetros com valor padrão
-- Predefinições
+### Parâmetros opcionais
+- Possuem valor padrão
 ````
 def helloworld(name, age = 18)
     print(f"Hello World! My name's {name} and I'm {age} years")
@@ -45,6 +45,11 @@ helloworld("Pedro")
 
 helloworld(Pedro, 28)
 >>> Hello World! I'm Pedro and I'm 28 years old
+````
+- **Não pode** haver parâmetros obrigatórios após um parâmetros opcional
+````
+def cadastrar_usuario(nome, idade=0, cidade)
+    print(f"Nome: {nome}, Idade: {idade}, Cidade: {cidade})
 ````
 
 ### Escopo local de variáveis
@@ -93,3 +98,8 @@ minha_funcao(30) # Saída: Olá, 30!
 ````
 
 ### Lambda
+- Mini-função
+````
+soma = lambda x, y: x + y
+print(soma(3, 4))  # Saída: 7
+````
