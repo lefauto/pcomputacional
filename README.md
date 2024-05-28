@@ -11,4 +11,5 @@
 - [Notas 2024/04/29, Python: Strings e random](2024_04_29)
 - [Versões do entregável 1](Entregável_1)
 - [Notas 2024/05/20, Python: Dicionários](2024_05_20)
+- [Notas 2024/05/27, Python: Funções](2024_05_27)
 - [Vocabulário](Vocabulário)
