@@ -12,4 +12,5 @@
 - [Versões do entregável 1](Entregável_1)
 - [Notas 2024/05/20, Python: Dicionários](2024_05_20)
 - [Notas 2024/05/27, Python: Funções](2024_05_27)
+- [Notas 2024/06/03, Python: Funções e Imports](2024_06_03)
 - [Vocabulário](Vocabulário)
