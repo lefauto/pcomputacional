@@ -14,4 +14,5 @@
 - [Notas 2024/05/27, Python: Funções](2024_05_27)
 - [Notas 2024/06/03, Python: Funções e Imports](2024_06_03)
 - [Notas 2024/06/10, Python: Operações com data e hora](2024_06_10)
+- [Notas 2024/06/11, Python: Manipulação de arquivos](2024_06_11)
 - [Vocabulário](Vocabulário)
