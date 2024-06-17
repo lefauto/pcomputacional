@@ -15,4 +15,5 @@
 - [Notas 2024/06/03, Python: Funções e Imports](2024_06_03)
 - [Notas 2024/06/10, Python: Operações com data e hora](2024_06_10)
 - [Notas 2024/06/11, Python: Manipulação de arquivos](2024_06_11)
+- [Notas 2024/06/17, Python: serialização com JSON, XML e CSV](2024_06_17)
 - [Vocabulário](Vocabulário)
